@@ -3,6 +3,7 @@ namespace SSOTest
 {
 	public class Constants
 	{
+		//constants
 		public const string ClientId = "server.code";
 		public const string ClientSecret = "secret";
 		public const string RedirectUrl = "https://notused";
