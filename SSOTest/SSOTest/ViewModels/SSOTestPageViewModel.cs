@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
+using IdentityModel.OidcClient;
 
 namespace SSOTest
 {
@@ -20,6 +21,7 @@ namespace SSOTest
 		public async Task LaunchLoginView()
 		{
 			await App.Current.MainPage.Navigation.PushModalAsync(new LoginView());
+
 		}
 	}
 }
